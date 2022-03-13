@@ -1,0 +1,15 @@
+﻿  LR.cpp
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(20,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(70,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(77,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(82,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(88,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(90,54): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(120,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(126,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Igor\Desktop\курсач2022\MKP2\MKP2\LR.cpp(135,24): warning C4018: '<': signed/unsigned mismatch
+  MKP2.vcxproj -> C:\Users\Igor\Desktop\курсач2022\MKP2\Debug\MKP2.exe
