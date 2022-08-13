@@ -7,9 +7,10 @@
 
 using namespace std;
 
-MultidimensionalKnapsack getRelaxation(MultidimensionalKnapsack mkp, vector<double> lambda);
-pair<vector<int>, double> knapsackDynamicSolve(MultidimensionalKnapsack kp);
-vector<double> getLambda(MultidimensionalKnapsack mkp);
-bool isFeasible(MultidimensionalKnapsack knapsack, vector<int> used);
+pair<vector<int>, double> knapsackDynamicSolve(MultidimensionalKnapsack kp, vector<int> I, vector<int> E);
+pair<vector<double>, double> knapsackLPSolve(MultidimensionalKnapsack kp, vector<int> I, vector<int> E);
+pair<double, pair<int, vector<double>>> getLRBound(MultidimensionalKnapsack mkp, vector<int> I, vector<int> E, vector<double> lambda, int active);
+pair<vector<double>, int> getLambda(MultidimensionalKnapsack mkp, vector<int> I, vector<int> E);
+
 
 #endif

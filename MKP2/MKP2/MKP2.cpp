@@ -1,5 +1,6 @@
 ﻿#include"Knapsack.h"
 #include"LR.h"
+#include"BranchAndBound.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -49,23 +50,8 @@ vector<MultidimensionalKnapsack> readInstances(string path) {
 
 int main(int argc, char* argv[])
 {
-	//ofstream fout;
-	//fout.open("../experiment_result/10x100x050(All).txt");
-	//vector<MultidimensionalKnapsack> problems = readInstances("../instances/OR10x100/OR10x100.dat");
-	//fout << "n = 100, m = 10, a = 0,50" << endl << endl;
-	//double avg = 0;
-	vector<Item> items;
-	items.push_back(Item{ 84,{20,41} });
-	items.push_back({ 34,{12,51} });
-	items.push_back({ 31,{7,24} });
-	items.push_back({ 14,{75,40} });
-	items.push_back({ 67,{93,84} });
-	items.push_back({ 65,{21,70} });
-	items.push_back({ 86,{75,34} });
-	items.push_back({ 98,{67,41} });
-	items.push_back({ 50,{34,49} });
-	items.push_back({ 7,{28,27} });
-	MultidimensionalKnapsack m = { 10,2,items,{190,250} };
-	getLambda(m);
-	int x = 5;
+	vector<MultidimensionalKnapsack> problems = readInstances("../instances/OR5x100/OR5x100.dat");
+	double x = BnBsolve(problems[0]);
+	int y = 5;
+	// 34675
 }

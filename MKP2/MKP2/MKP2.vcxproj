@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BranchAndBound.cpp" />
     <ClCompile Include="Knapsack.cpp" />
     <ClCompile Include="LR.cpp" />
     <ClCompile Include="MKP2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BranchAndBound.h" />
     <ClInclude Include="Knapsack.h" />
     <ClInclude Include="LR.h" />
   </ItemGroup>

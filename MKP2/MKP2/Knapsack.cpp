@@ -6,7 +6,7 @@ using namespace std;
 
 Item::Item() {}
 
-Item::Item(int c, vector<int> a)
+Item::Item(double c, vector<int> a)
 	: c(c), a(a) {}
 
 void Item::addConstraight(int x) {
@@ -15,10 +15,10 @@ void Item::addConstraight(int x) {
 vector<int> Item::getConstraights() {
 	return a;
 }
-void Item::addValue(int x) {
+void Item::addValue(double x) {
 	c = x;
 }
-int Item::getValue() {
+double Item::getValue() {
 	return c;
 }
 

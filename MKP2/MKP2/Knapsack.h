@@ -8,15 +8,15 @@ using namespace std;
 class Item {
 public:
 	Item();
-	Item(int c, vector<int> a);
+	Item(double c, vector<int> a);
 	void addConstraight(int x);
 	vector<int> getConstraights();
-	void addValue(int x);
-	int getValue();
+	void addValue(double x);
+	double getValue();
 	int id;
 	bool operator<(const Item& rhs) const;
 private:
-	int c; // item profit
+	double c; // item profit
 	vector<int> a;// a[i] = item weight in the i-th knapsack constraight
 
 };
